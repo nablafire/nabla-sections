@@ -1,0 +1,94 @@
+
+.nabla-row{
+	width: 100%;
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+	margin: 0 auto;
+}
+
+.nabla-row > .nabla-20-percent{
+	width: 20%;
+	float: left;
+}
+.nabla-row > .nabla-25-percent{
+	width: 25%;
+	float: left;
+}
+.nabla-row > .nabla-33-percent{
+	width: 33%;
+	float: left;
+}
+.nabla-row > .nabla-40-percent{
+	width: 40%;
+	float: left;
+}
+.nabla-row > .nabla-50-percent{
+	width: 50%;
+	float: left;
+}
+.nabla-row > .nabla-60-percent{
+	width: 60%;
+	float: left;
+}
+.nabla-row > .nabla-66-percent{
+	width: 66%;
+	float: left;
+}
+.nabla-row > .nabla-75-percent{
+	width: 75%;
+	float: left;
+}
+.nabla-row > .nabla-80-percent{
+	width: 80%;
+	float: left;
+}
+.nabla-row > .nabla-100-percent{
+	width: 100%;
+	float: left;
+}
+
+
+@media (max-width:768px) {
+
+	.nabla-row > .nabla-20-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-25-percent{
+		width: 100%;
+		float: left;	
+	}
+	.nabla-row > .nabla-33-percent{
+		width: 100%;
+		float: left;	
+	}
+	.nabla-row > .nabla-40-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-50-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-60-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-66-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-75-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-80-percent{
+		width: 100%;
+		float: left;
+	}
+	.nabla-row > .nabla-100-percent{
+		width: 100%;
+		float: left;
+	}
+
+}

@@ -1,0 +1,64 @@
+
+.nabla-front-page-admin-fields {
+    margin: 10px 0;
+}
+
+.nabla-front-page-admin-fields p label {
+    margin-right: auto;
+}
+
+.nabla-front-page-admin-fields p strong {
+    text-transform: uppercase;
+}
+
+.nabla-front-page-admin-fields p:first-child {
+    display: block;
+    margin-top: 0;
+}
+
+.nabla-front-page-admin-fields p:last-child {
+    margin-bottom: 0;
+}
+
+.nabla-front-page-admin-field {
+    font-size: 13px;
+    padding: 10px;
+    margin: 0px;
+    background: #FAFAFA;
+    border: 1px solid #ddd;
+}
+
+.nabla-front-page-admin-field label{
+	font-weight: bold;
+}
+
+.nabla-front-page-admin-toggle::before {
+    font-family:"dashicons";
+	display:inline-block;
+	vertical-align:middle;
+	line-height:1;
+	font-weight:normal;
+	font-style:normal;
+	speak:none;
+	text-decoration:inherit;
+	text-transform:none;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+    content: "\f132";
+    transition: all 300ms ease-in-out;
+    margin-right: 5px;
+}
+
+.nabla-front-page-admin-toggle.open::before {
+    content: "\f460";
+}
+
+.nabla-front-page-admin-toggle {
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+}
